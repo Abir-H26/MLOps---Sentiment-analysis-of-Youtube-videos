@@ -122,7 +122,7 @@ youtube-sentiment-mlops/
 
 ---
 
-## 🙏 Credits
+## Credits
 
 Reproduced from the original course by [Bappy Ahmed](https://github.com/entbappy/End-to-end-Youtube-Sentiment),
 featured on [freeCodeCamp](https://www.youtube.com/watch?v=gwNPV882tkc).
