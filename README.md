@@ -113,7 +113,7 @@ youtube-sentiment-mlops/
 │
 ├── src/                  # Pipeline stages
 ├── chrome-extension/     # The browser extension
-├── ey-analysis/          # EY use case: charts, insights, comments
+├── ey-analysis/          # EY use case: captures of charts, insights, comments from the Chrome plug-in
 ├── app.py                # Flask REST API
 ├── dvc.yaml              # Pipeline definition
 ├── params.yaml           # Hyperparameters
