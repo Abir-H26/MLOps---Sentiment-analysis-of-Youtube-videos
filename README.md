@@ -10,7 +10,7 @@ This project automates that question. Built as an end-to-end MLOps pipeline, it 
 
 ## See It in Action
 
-[![Watch the demo](thumbnail.png)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://drive.google.com/drive/folders/18kTxPb2IBsRag7VvjlHGyPpR-W3LeMNj?usp=sharing)
+[![Watch the demo](thumbnail.png)](https://drive.google.com/drive/folders/18kTxPb2IBsRag7VvjlHGyPpR-W3LeMNj?usp=sharing)
 
 > *One click. Instant sentiment.*
 
