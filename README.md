@@ -1,4 +1,4 @@
-# 🎬 YouTube Sentiment Analyzer
+# YouTube Sentiment Analyzer
 
 > *What are people saying about EY on YouTube — and what does it reveal about their hiring brand?*
 
@@ -8,7 +8,7 @@ This project automates that question. Built as an end-to-end MLOps pipeline, it 
 
 ---
 
-## 🎥 See It in Action
+## See It in Action
 
 [![Watch the demo](thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
@@ -16,7 +16,7 @@ This project automates that question. Built as an end-to-end MLOps pipeline, it 
 
 ---
 
-## 📌 Real Case: How Do Candidates Talk About EY on YouTube?
+## Real Case: How Do Candidates Talk About EY on YouTube?
 
 EY does not allow comments on its official YouTube channel — meaning public opinion about the firm can only be captured **indirectly**, through third-party content like career vlogs and interview coaching videos.
 
@@ -40,7 +40,7 @@ I analyzed three types of EY-related videos to find out.
 
 ---
 
-### 🎓 Video 2 — EY Interview Coaching
+###  Video 2 — EY Interview Coaching
 **["EY Interview Questions and Answers (How To Pass!)"](https://www.youtube.com/watch?v=dskGPEq6GUQ)**
 
 | Metric | Result |
@@ -54,7 +54,7 @@ I analyzed three types of EY-related videos to find out.
 
 ---
 
-### 🎓 Video 3 — EY Video Interview Tips
+###  Video 3 — EY Video Interview Tips
 **["How to Ace Your EY Video Interview: Insider Tips"](https://www.youtube.com/watch?v=qNTK9b_TQys)**
 
 | Metric | Result |
@@ -68,7 +68,7 @@ I analyzed three types of EY-related videos to find out.
 
 ---
 
-### 💡 Key Insight
+###  Key Insight
 
 > **Across two independent coaching videos, the same pattern emerges: candidates from every continent are actively seeking help to get into EY.**
 
@@ -76,11 +76,11 @@ The neutrality of the sentiment score is not indifference — it simply reflects
 
 A traditional sentiment score alone would miss this entirely. Understanding *why* comments are neutral matters as much as the score itself.
 
-> 📂 Screenshots, word clouds, and full comment data → [`ey-analysis/`](./ey-analysis/)
+>  Screenshots, word clouds, and full comment data → [`ey-analysis/`](./ey-analysis/)
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 ```
 1. The extension scrapes comments from the YouTube video
@@ -93,7 +93,7 @@ Under the hood, the entire pipeline — from raw data to live prediction — is 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | What | How |
 |---|---|
@@ -106,7 +106,7 @@ Under the hood, the entire pipeline — from raw data to live prediction — is 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 youtube-sentiment-mlops/
