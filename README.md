@@ -1,10 +1,10 @@
 # YouTube Sentiment Analyzer
 
-> *What are people saying about EY on YouTube — and what does it reveal about their hiring brand?*
+> *What are people saying about EY on YouTube - and what does it reveal about their hiring brand?*
 
 Every day, candidates across the world turn to YouTube to prepare for consulting interviews, share career experiences, and seek advice. But what does this content actually tell us about how EY is perceived as an employer?
 
-This project automates that question. Built as an end-to-end MLOps pipeline, it collects YouTube comments and classifies them as **positive**, **negative**, or **neutral** in real time — delivered through a Chrome Extension you can run on any video.
+This project automates that question. Built as an end-to-end MLOps pipeline, it collects YouTube comments and classifies them as **positive**, **negative**, or **neutral** in real time - delivered through a Chrome Extension you can run on any video.
 
 ---
 
@@ -18,7 +18,7 @@ This project automates that question. Built as an end-to-end MLOps pipeline, it 
 
 ## Real Case: How Do Candidates Talk About EY on YouTube?
 
-EY does not allow comments on its official YouTube channel — meaning public opinion about the firm can only be captured **indirectly**, through third-party content like career vlogs and interview coaching videos.
+EY does not allow comments on its official YouTube channel - meaning public opinion about the firm can only be captured **indirectly**, through third-party content like career vlogs and interview coaching videos.
 
 This makes for an interesting data science question: *what does candidate-generated content reveal about EY's employer brand?*
 
@@ -34,7 +34,7 @@ I analyzed three types of EY-related videos to find out.
 | Comments analyzed | 3 |
 | Dominant sentiment | 🟢 100% Positive |
 
-**What the comments say:** Viewers respond with genuine enthusiasm — praising the conversation, asking for more career insights, and engaging with the guest's story.
+**What the comments say:** Viewers respond with genuine enthusiasm - praising the conversation, asking for more career insights, and engaging with the guest's story.
 
 **Limitation:** Only 3 comments were available, making this a weak statistical sample. However the tone is consistent and aligns with the video's authentic, personal nature.
 
@@ -48,7 +48,7 @@ I analyzed three types of EY-related videos to find out.
 | Comments analyzed | 173 |
 | Dominant sentiment | ⚪ 85.6% Neutral · 🟢 12.1% Positive · 🔴 2.9% Negative |
 
-**What the comments say:** Almost every comment follows the same pattern — a location and a role (*"EY India, Data Engineer"*, *"EY Toronto"*, *"EY London — Audit Associate"*). These are candidates from around the world, sharing the EY branch and role they are applying to in response to the host's call-to-action to receive tailored interview resources.
+**What the comments say:** Almost every comment follows the same pattern - a location and a role (*"EY India, Data Engineer"*, *"EY Toronto"*, *"EY London — Audit Associate"*). These are candidates from around the world, sharing the EY branch and role they are applying to in response to the host's call-to-action to receive tailored interview resources.
 
 **Geographic reach:** India, Australia, Japan, Brazil, Switzerland, Ireland, Dubai, the UK, Canada, and across the US.
 
@@ -62,7 +62,7 @@ I analyzed three types of EY-related videos to find out.
 | Comments analyzed | 21 |
 | Dominant sentiment | ⚪ 71.4% Neutral · 🟢 28.6% Positive |
 
-**What the comments say:** The same pattern repeats — candidates sharing their branch and target role (*"EY Vancouver, Canada — Assurance"*, *"EY Lagos, Nigeria"*, *"EY Denmark"*). The higher proportion of positive comments reflects a warmer tone, with some viewers expressing genuine gratitude for the content.
+**What the comments say:** The same pattern repeats - candidates sharing their branch and target role (*"EY Vancouver, Canada — Assurance"*, *"EY Lagos, Nigeria"*, *"EY Denmark"*). The higher proportion of positive comments reflects a warmer tone, with some viewers expressing genuine gratitude for the content.
 
 **Geographic reach:** Canada, Nigeria, Denmark, Finland, Malaysia, Dubai, Ireland, the UK, and the US.
 
@@ -72,7 +72,7 @@ I analyzed three types of EY-related videos to find out.
 
 > **Across two independent coaching videos, the same pattern emerges: candidates from every continent are actively seeking help to get into EY.**
 
-The neutrality of the sentiment score is not indifference — it simply reflects that these comments are informational rather than emotional. The pattern repeating across two separate videos makes this a finding, not a coincidence. Combined with the positive tone of authentic career content, this reveals **EY has strong and consistent employer brand pull worldwide**, attracting motivated applicants across every service line and geography.
+The neutrality of the sentiment score is not indifference - it simply reflects that these comments are informational rather than emotional. The pattern repeating across two separate videos makes this a finding, not a coincidence. Combined with the positive tone of authentic career content, this reveals **EY has strong and consistent employer brand pull worldwide**, attracting motivated applicants across every service line and geography.
 
 A traditional sentiment score alone would miss this entirely. Understanding *why* comments are neutral matters as much as the score itself.
 
@@ -89,7 +89,7 @@ A traditional sentiment score alone would miss this entirely. Understanding *why
 4. Results are displayed instantly in your browser
 ```
 
-Under the hood, the entire pipeline — from raw data to live prediction — is automated, versioned, and reproducible using industry-standard MLOps tools.
+Under the hood, the entire pipeline - from raw data to live prediction - is automated, versioned, and reproducible using industry-standard MLOps tools.
 
 ---
 
